@@ -1,0 +1,33 @@
+/* Calendar.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .react-calendar {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .react-calendar__tile--active {
+    background: #007bff;
+    color: white;
+  }
+  
+  p {
+    margin-top: 10px;
+    color: #555;
+  }
+  
